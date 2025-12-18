@@ -48,7 +48,7 @@ export default function ResultPage() {
         <LinearGradient colors={['#181051', '#413c90']} className="flex-1">
             <SafeAreaView className="flex-1 px-6  relative">
                 {/* HEADER */}
-                <TouchableOpacity onPress={() => router.replace('/(tabs)/home')} className="flex-row gap-2x pt-6">
+                <TouchableOpacity onPress={() => router.replace('/(tabs)')} className="flex-row gap-2x pt-6">
                     <Ionicons name="chevron-back" size={26} color="white" />
                     <Text className="text-xl text-gray-400">Back</Text>
                 </TouchableOpacity>
@@ -109,7 +109,7 @@ export default function ResultPage() {
                     {/*</Pressable>*/}
 
                     <Pressable
-                        onPress={() => router.replace('/(tabs)/home')}
+                        onPress={() => router.replace('/(tabs)')}
                         className="bg-indigo-500 py-4 rounded-2xl items-center justify-center flex-row gap-3"
                     >
                         <FontAwesome name="home" size={20} color="white" />

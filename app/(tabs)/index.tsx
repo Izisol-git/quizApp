@@ -105,7 +105,7 @@ export default function HomeScreen() {
                            Live Quizzes
                        </Text>
                        {allQuiz?.length === 0 ? (
-                          <View className="flex-1 justify-center items-center bg-[#181051]">
+                          <View className="flex-1 justify-center items-center ">
                             <Text>Ma'lumot topilmadi</Text>
                           </View>
                         ) : (
